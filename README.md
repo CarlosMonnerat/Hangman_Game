@@ -11,7 +11,7 @@ Jogo clássico da forca desenvolvido com **HTML5**, **CSS3** e **JavaScript puro
 
 ---
 
-### 🕹️ Funcionalidades
+## 🕹️ Funcionalidades
 
 - Palavras aleatórias carregadas de um módulo externo (`palavras.js`)
 - Teclado ou botão “Jogar” para interação
@@ -22,15 +22,13 @@ Jogo clássico da forca desenvolvido com **HTML5**, **CSS3** e **JavaScript puro
 
 ---
 
-### 📆 Acesse o site
+## 🔗 Acesse o jogo
 
-Acesse o jogo online clicando no link abaixo:
-
-👉 [Jogar agora](https://seuusuario.github.io/jogo-da-forca)
+👉 [**Jogar agora**]()
 
 ---
 
-### 📆 Estrutura de Pastas
+## 📁 Estrutura de Pastas
 
 ```
 /Hangman_Game
@@ -50,9 +48,9 @@ Acesse o jogo online clicando no link abaixo:
 │   ├── pernaE.png
 │   └── pernaD.png
 
----
+```
 
-### 💻 Tecnologias usadas
+## 💻 Tecnologias usadas
 
 - HTML5
 - CSS3
@@ -62,7 +60,7 @@ Acesse o jogo online clicando no link abaixo:
 
 ---
 
-### 📚 Aprendizados
+## 📚 Aprendizados
 
 Este projeto ajuda a fixar conceitos como:
 
@@ -75,6 +73,6 @@ Este projeto ajuda a fixar conceitos como:
 
 ---
 
-### 📄 Licença
+## 📄 Licença
 
 Este projeto está sob a licença MIT. Sinta-se livre para usar, modificar e distribuir.
