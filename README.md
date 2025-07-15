@@ -1,6 +1,5 @@
 ## 🎮 Jogo da Forca - HTML, CSS e JavaScript
-
-Jogo clássico da forca feito com **HTML5**, **CSS3** e **JavaScript puro**, utilizando ES Modules e manipulação dinâmica do DOM. Ideal para estudos de lógica, manipulação de eventos, modularização e interatividade com o usuário.
+Jogo clássico da forca desenvolvido com **HTML5**, **CSS3** e **JavaScript puro**, sem bibliotecas externas. O jogador deve adivinhar a palavra secreta digitando letras, com direito a até 7 erros. As imagens da forca são exibidas progressivamente a cada erro. Palavras carregadas de um arquivo externo via módulo ES6.
 
 ---
 
