@@ -1,18 +1,18 @@
-## 🎩 Jogo da Forca - HTML, CSS e JavaScript
+## 🎮 Jogo da Forca - HTML, CSS e JavaScript
 
 Jogo clássico da forca feito com **HTML5**, **CSS3** e **JavaScript puro**, utilizando ES Modules e manipulação dinâmica do DOM. Ideal para estudos de lógica, manipulação de eventos, modularização e interatividade com o usuário.
 
 ---
 
-### 🎨 Apresentação
+## 🎥 Apresentação
 
-Confira abaixo uma prévia do jogo em funcionamento:
-
-![preview do jogo](./image/preview.gif)
+<p align="center">
+  <img src="./image/forca.gif" width="600" alt="Demonstração do jogo">
+</p>
 
 ---
 
-### 🚀 Funcionalidades
+### 🕹️ Funcionalidades
 
 - Palavras aleatórias carregadas de um módulo externo (`palavras.js`)
 - Teclado ou botão “Jogar” para interação
@@ -27,16 +27,18 @@ Confira abaixo uma prévia do jogo em funcionamento:
 
 Acesse o jogo online clicando no link abaixo:
 
-👉 [Jogar agora](https://seuusuario.github.io/jogo-da-forca) <!-- Substitua pela URL real quando fizer o deploy -->
+👉 [Jogar agora](https://seuusuario.github.io/jogo-da-forca)
 
 ---
 
 ### 📆 Estrutura de Pastas
 
 ```
-/seu-projeto
+/Hangman_Game
 ├── index.html
-├── style.css
+├── /styles
+│   ├── global.css
+│   └── medias.css
 ├── /scripts
 │   ├── index.js
 │   └── palavras.js
@@ -47,9 +49,7 @@ Acesse o jogo online clicando no link abaixo:
 │   ├── braçoE.png
 │   ├── braçoD.png
 │   ├── pernaE.png
-│   ├── pernaD.png
-│   └── cabeçaM.png
-```
+│   └── pernaD.png
 
 ---
 
@@ -69,6 +69,7 @@ Este projeto ajuda a fixar conceitos como:
 
 - Modularização com ES6
 - Manipulação do DOM
+- Manipulação de Arrays
 - Eventos de teclado
 - Controle de fluxo com laços e condicionais
 - Responsividade básica com CSS
