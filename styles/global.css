@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    background-image: url("../image/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 4rem;
+    color: black;
+    padding: 5px;    
+}
+p{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    margin: 5px;
+}
+ 
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 70vw;
+    height: 50vh;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.display{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.control{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+
+.caixa{
+    width: 15%;
+    height: 25%;
+    text-align: center;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.219);
+}
+
+.btnjogar{
+    width: 30%;
+    height: 20%;
+    text-align: center;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(70, 69, 69, 0.219);
+    padding: 5px;
+}
+
+.btnjogar:hover{
+    color: white;
+    background-color: rgba(73, 71, 71, 0.411);
+    cursor: pointer;
+}
+
+.btnnova{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(70, 69, 69, 0.219);
+    padding: 5px;
+}
+
+.btnnova:hover{
+    color: white;
+    background-color: rgba(73, 71, 71, 0.411);
+    cursor: pointer;
+}
+
+.letra{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.quadro{
+    position: relative;
+    top: -30px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 90%;
+    color: rgb(173, 28, 28);
+    font-weight: bolder;
+    padding: 10px;
+}
+.digitada{
+    color: black;
+    font-size: large;      
+}
+
+.dvdisplay {
+    position: relative;
+    top: -150px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 10%;
+    user-select: none;
+}
+
+.dvdisplay .letra {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
+}
+
+.dvforca {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+.dvforca img {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+}
+
+.forcaimg {
+  position: relative; /* imagem base, visível sempre */
+  z-index: 1;
+}
+
+.forcaparte {
+  z-index: 2;
+  display: none; /* só mostraremos uma por vez no JS */
+}
+
+
