@@ -24,7 +24,7 @@ Jogo clássico da forca desenvolvido com **HTML5**, **CSS3** e **JavaScript puro
 
 ## 🔗 Acesse o jogo
 
-👉 [**Jogar agora**]()
+👉 [**Jogar agora**](https://carlosmonnerat.github.io/Hangman_Game/)
 
 ---
 
